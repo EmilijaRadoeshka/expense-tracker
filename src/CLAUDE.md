@@ -8,11 +8,12 @@ React 19 + Vite finance tracker. Plain JSX, no TypeScript, no router, no state l
 main.jsx
 └── App.jsx            owns `transactions` state + `categories`
     ├── Summary.jsx            props: transactions
+    ├── SpendingChart.jsx      props: transactions, categories (Recharts bar chart)
     ├── TransactionForm.jsx    props: categories, onAddTransaction
     └── TransactionList.jsx    props: transactions, categories
 ```
 
-## Architectural rulesv
+## Architectural rules
 
 **`App` is a thin container.** It owns exactly one piece of shared state
 (`transactions`) plus the static `categories` list, and passes them down. It holds

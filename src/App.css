@@ -146,3 +146,38 @@ th {
   font-size: 12px;
   color: #333;
 }
+
+.spending-chart {
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin-bottom: 24px;
+  background: #fff;
+}
+
+.spending-chart h2 {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.chart-empty {
+  color: #888;
+  font-size: 14px;
+}
+
+.chart-tooltip {
+  display: flex;
+  gap: 12px;
+  padding: 6px 10px;
+  background: #fff;
+  border: 1px solid #ddd;
+  font-size: 13px;
+}
+
+.chart-tooltip-label {
+  color: #52514e;
+}
+
+.chart-tooltip-value {
+  font-weight: bold;
+  color: #0b0b0b;
+}
